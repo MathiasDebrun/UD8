@@ -1,7 +1,7 @@
 
 public class Persona {
 
-	
+																								//Creamos los atributos.
 	private String nombre="";
 	private int edad=0;
 	private final String DNI_DEF="1234567A";
@@ -11,11 +11,11 @@ public class Persona {
 	private double peso=0.0;
 	private double altura=0.0;
 	
-	public Persona() {
+	public Persona() {										//Constructor por defecto
 		
 	}
 
-	public Persona(String nombre, int edad, String dNI, char sexo, double peso, double altura) {
+	public Persona(String nombre, int edad, String dNI, char sexo, double peso, double altura) {  //Constructor con todos los parámetros.
 		super();
 		this.nombre = nombre;
 		this.edad = edad;
@@ -24,7 +24,7 @@ public class Persona {
 		this.peso = peso;
 		this.altura = altura;
 	}
-	public Persona(String nombre, int edad, char sexo) {
+	public Persona(String nombre, int edad, char sexo) {						//Constructor con Nombre, edad y sexo.
 		super();
 		this.nombre = nombre;
 		this.edad = edad;
@@ -80,7 +80,7 @@ public class Persona {
 	}
 
 	@Override
-	public String toString() {
+	public String toString() {															//Método toString
 		return "Persona [nombre=" + nombre + ", edad=" + edad + ", DNI_DEF=" + DNI_DEF + ", DNI=" + DNI + ", SEXO="
 				+ SEXO + ", sexo=" + sexo + ", peso=" + peso + ", altura=" + altura + "]";
 	}

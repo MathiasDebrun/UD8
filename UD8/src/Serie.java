@@ -1,6 +1,6 @@
 
 public class Serie {
-      protected final int NUMTEMP=3;
+      protected final int NUMTEMP=3;										//Atributos
       protected final boolean ENTREGADO=false;
 	  protected String titulo="";
       protected int ntemp=NUMTEMP;
@@ -8,7 +8,7 @@ public class Serie {
       protected String genero="";
       protected String creador="";
 	
-      public Serie(String titulo, int ntemp, boolean entregado, String genero, String creador) {
+      public Serie(String titulo, int ntemp, boolean entregado, String genero, String creador) {			//Constructor con todos los parámetros.
 		this.titulo = titulo;
 		this.ntemp = ntemp;
 		this.entregado = entregado;
@@ -16,7 +16,7 @@ public class Serie {
 		this.creador = creador;
 	}
 
-	public Serie(String titulo, String creador) {
+	public Serie(String titulo, String creador) {														   //Constructor con sólo dos parámetros.
 		this.titulo = titulo;
 		this.creador = creador;
 	}

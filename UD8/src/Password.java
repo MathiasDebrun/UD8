@@ -1,6 +1,6 @@
 
 public class Password {
-	private final int LONGITUD=8;
+	private final int LONGITUD=8;                   //Atributos de la clase.
 	private int longitud=8;
 	private String contraseña;
 	
@@ -34,8 +34,8 @@ public class Password {
 		return "Password [longitud=" + longitud + ", contraseña=" + contraseña + "]";
 	}
 
-
-	public String generarcontraseña(int longitud) {
+ 
+	public String generarcontraseña(int longitud) {								//Generamos la contraseña.
 		String pass="";
 		 // String con caracteres
       String CadenaLetrasNum = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
